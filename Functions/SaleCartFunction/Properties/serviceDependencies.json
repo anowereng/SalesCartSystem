@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "type": "appInsights"
+    },
+    "storage1": {
+      "type": "storage",
+      "connectionId": "azure-local-queue",
+      "dynamicId": null
+    },
+    "storage2": {
+      "type": "storage",
+      "connectionId": "my-connection",
+      "dynamicId": null
+    }
+  }
+}

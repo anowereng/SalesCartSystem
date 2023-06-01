@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "type": "appInsights.sdk"
+    },
+    "storage1": {
+      "secretStore": null,
+      "type": "storage.emulator",
+      "connectionId": "azure-local-queue",
+      "dynamicId": null
+    },
+    "storage2": {
+      "secretStore": null,
+      "type": "storage.emulator",
+      "connectionId": "my-connection",
+      "dynamicId": null
+    }
+  }
+}

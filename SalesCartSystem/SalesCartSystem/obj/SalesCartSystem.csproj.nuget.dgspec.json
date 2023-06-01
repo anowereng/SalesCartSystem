@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\azure-learning-project\\SalesCartSystem\\SalesCartSystem\\SalesCartSystem.csproj": {}
+    "E:\\az-900-workspace\\SalesCartSystem\\SalesCartSystem\\SalesCartSystem\\SalesCartSystem.csproj": {}
   },
   "projects": {
-    "D:\\azure-learning-project\\SalesCartSystem\\SalesCartSystem\\SalesCartSystem.csproj": {
+    "E:\\az-900-workspace\\SalesCartSystem\\SalesCartSystem\\SalesCartSystem\\SalesCartSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\azure-learning-project\\SalesCartSystem\\SalesCartSystem\\SalesCartSystem.csproj",
+        "projectUniqueName": "E:\\az-900-workspace\\SalesCartSystem\\SalesCartSystem\\SalesCartSystem\\SalesCartSystem.csproj",
         "projectName": "SalesCartSystem",
-        "projectPath": "D:\\azure-learning-project\\SalesCartSystem\\SalesCartSystem\\SalesCartSystem.csproj",
-        "packagesPath": "C:\\Users\\anower.ullah\\.nuget\\packages\\",
-        "outputPath": "D:\\azure-learning-project\\SalesCartSystem\\SalesCartSystem\\obj\\",
+        "projectPath": "E:\\az-900-workspace\\SalesCartSystem\\SalesCartSystem\\SalesCartSystem\\SalesCartSystem.csproj",
+        "packagesPath": "C:\\Users\\AnowerUllah\\.nuget\\packages\\",
+        "outputPath": "E:\\az-900-workspace\\SalesCartSystem\\SalesCartSystem\\SalesCartSystem\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\anower.ullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AnowerUllah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,7 +111,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using SaleCartFunction;
 
 namespace SalesCartSystem.Controllers
 {
@@ -12,15 +13,18 @@ namespace SalesCartSystem.Controllers
     };
 
         private readonly ILogger<WeatherForecastController> _logger;
-
+        private QuueueClient _quueueClient; 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
+            _quueueClient = new QuueueClient();
+            _quueueClient.CreateQueue("my-queue-items");
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
+            _quueueClient.InsertMessage("my-queue-items","Hello Arfiz");
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
